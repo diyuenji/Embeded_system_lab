@@ -33,7 +33,7 @@ void vTask1(void *pvParameter)
         taskYIELD();  // to give other task opportunity to enter running state
         #endif
 
-        for (int i = 0; i < 2000000; i++);
+        for (int i = 0; i < 2000001; i++);
 
         // vTaskDelay(MONITOR_PERIOD_TASK1); 
     }
